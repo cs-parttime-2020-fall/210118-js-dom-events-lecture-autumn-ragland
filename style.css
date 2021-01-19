@@ -1,0 +1,30 @@
+body {
+    font-family: sans-serif;
+    padding : 1%;
+    /* background-color: blue; */
+}
+
+#container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+#container > div {
+    border : 2px solid blue;
+    border-radius: 4px;
+    text-align: center;
+    margin : 3%;
+}
+
+form > div {
+    margin : 2%;
+}
+
+img {
+    width : 100%;
+}
+
+#entires > div {
+    border-bottom: 1px solid black;
+    margin: 2%;
+}
